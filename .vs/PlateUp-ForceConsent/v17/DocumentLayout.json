@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "E:\\Projects\\PlateUp-ForceConsent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|e:\\projects\\plateup-forceconsent\\forceload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|solutionrelative:forceload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|e:\\projects\\plateup-forceconsent\\forcesave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|solutionrelative:forcesave.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|e:\\projects\\plateup-forceconsent\\forcepractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|solutionrelative:forcepractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|e:\\projects\\plateup-forceconsent\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -14,17 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ForceSave.cs",
+              "DocumentMoniker": "E:\\Projects\\PlateUp-ForceConsent\\ForceSave.cs",
+              "RelativeDocumentMoniker": "ForceSave.cs",
+              "ToolTip": "E:\\Projects\\PlateUp-ForceConsent\\ForceSave.cs",
+              "RelativeToolTip": "ForceSave.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T05:49:29.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ForceLoad.cs",
+              "DocumentMoniker": "E:\\Projects\\PlateUp-ForceConsent\\ForceLoad.cs",
+              "RelativeDocumentMoniker": "ForceLoad.cs",
+              "ToolTip": "E:\\Projects\\PlateUp-ForceConsent\\ForceLoad.cs",
+              "RelativeToolTip": "ForceLoad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T05:23:09.638Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ForcePractice.cs",
+              "DocumentMoniker": "E:\\Projects\\PlateUp-ForceConsent\\ForcePractice.cs",
+              "RelativeDocumentMoniker": "ForcePractice.cs",
+              "ToolTip": "E:\\Projects\\PlateUp-ForceConsent\\ForcePractice.cs",
+              "RelativeToolTip": "ForcePractice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T05:10:01.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Helper.cs",
               "DocumentMoniker": "E:\\Projects\\PlateUp-ForceConsent\\Helper.cs",
               "RelativeDocumentMoniker": "Helper.cs",
               "ToolTip": "E:\\Projects\\PlateUp-ForceConsent\\Helper.cs",
               "RelativeToolTip": "Helper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-03T05:06:41.902Z",
               "EditorCaption": ""
