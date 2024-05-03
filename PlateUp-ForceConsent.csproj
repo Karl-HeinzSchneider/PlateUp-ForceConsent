@@ -113,6 +113,7 @@
   <ItemGroup>
     <Compile Include="ForceLoad.cs" />
     <Compile Include="ForcePractice.cs" />
+    <Compile Include="ForceSave.cs" />
     <Compile Include="Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
