@@ -12,7 +12,7 @@ using Kitchen.Modules;
 
 namespace PlateUp_ForceConsent
 {
-    internal class ForceStartPracticeMode : GenericSystemBase, IModSystem
+    public class ForceStartPracticeMode : GenericSystemBase, IModSystem
     {
         EntityQuery PopupQuery;
         protected override void Initialise() {
