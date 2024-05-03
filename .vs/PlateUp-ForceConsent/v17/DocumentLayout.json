@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\Projects\\PlateUp-ForceConsent\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|e:\\projects\\plateup-forceconsent\\forcepractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|solutionrelative:forcepractice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|e:\\projects\\plateup-forceconsent\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C95B4CC0-93FD-4A00-9EFC-6469F98C35D7}|PlateUp-ForceConsent.csproj|solutionrelative:helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ForcePractice.cs",
+              "DocumentMoniker": "E:\\Projects\\PlateUp-ForceConsent\\ForcePractice.cs",
+              "RelativeDocumentMoniker": "ForcePractice.cs",
+              "ToolTip": "E:\\Projects\\PlateUp-ForceConsent\\ForcePractice.cs",
+              "RelativeToolTip": "ForcePractice.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-03T05:10:01.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Helper.cs",
               "DocumentMoniker": "E:\\Projects\\PlateUp-ForceConsent\\Helper.cs",
               "RelativeDocumentMoniker": "Helper.cs",
