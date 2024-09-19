@@ -31,37 +31,39 @@ namespace PlateUp_ForceConsent
         {
             bool hasMatches = !this.PopupQuery.IsEmpty;
 
-            if (hasMatches)
-            {             
-                Helper.LogInfo("FORCE: StartPracticeMode");
+            if (!hasMatches)
+            {
+                return;
+            }    
+            
+            Helper.LogInfo("FORCE: StartPracticeMode");
 
-                ConsentElement[] consentElements = GameObject.FindObjectsOfType<ConsentElement>();                     
+            ConsentElement[] consentElements = GameObject.FindObjectsOfType<ConsentElement>();                     
 
-                if (consentElements.Length < 2)
-                {
-                    //Debug.Log("consentElements.Length < 2");
-                    //Helper.LogInfo("consentElements.Length < 2");
+            if (consentElements.Length < 2)
+            {
+                //Debug.Log("consentElements.Length < 2");
+                //Helper.LogInfo("consentElements.Length < 2");
 
-                    return;
-                }
-
-                //int counter  = 0;
-
-                //foreach(var consentElement in consentElements)
-                //{
-                //    //consentElement.ClearConsents();
-                //    //Helper.LogInfo("foreach"+counter+" "+consentElement.Mode);
-                //    //counter++;
-                //}
-
-                ConsentElement elem = consentElements[1];
-                //elem.SetAllConsents(true);
-         
-                ConsentElement elemTwo = consentElements[2];
-                elemTwo.Mode = ConsentElement.ConsentMode.AnyRequired;
-                //elemTwo.ClearConsents();
-                elemTwo.SetAllConsents(true);
+                return;
             }
+
+            //int counter  = 0;
+
+            //foreach(var consentElement in consentElements)
+            //{
+            //    //consentElement.ClearConsents();
+            //    //Helper.LogInfo("foreach"+counter+" "+consentElement.Mode);
+            //    //counter++;
+            //}
+
+            ConsentElement elem = consentElements[1];
+            //elem.SetAllConsents(true);
+         
+            ConsentElement elemTwo = consentElements[2];
+            elemTwo.Mode = ConsentElement.ConsentMode.AnyRequired;
+            //elemTwo.ClearConsents();
+            elemTwo.SetAllConsents(true);            
         }
     }
 
