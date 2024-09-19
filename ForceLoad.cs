@@ -21,7 +21,8 @@ namespace PlateUp_ForceConsent
         protected override void Initialise()
         {
             base.Initialise();
-            Debug.Log("ForceLoad");
+            //Debug.Log("ForceLoad");
+            Helper.LogInfo("ForceLoad Initialise()");
             RequireSingletonForUpdate<SFranchiseMarker>();             
         }
 
@@ -37,6 +38,8 @@ namespace PlateUp_ForceConsent
             if(consentElements.Length < 2 )
             {
                 //Debug.Log("consentElements.Length < 2");
+                //Helper.LogInfo("consentElements.Length < 2");
+
                 return;
             }
 
