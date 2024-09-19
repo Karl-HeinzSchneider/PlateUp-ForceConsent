@@ -18,7 +18,8 @@ namespace PlateUp_ForceConsent
         protected override void Initialise() {
             base.Initialise();
             //RequireSingletonForUpdate<SKitchenMarker>();
-            RequireSingletonForUpdate<SIsNightTime>();     
+            RequireSingletonForUpdate<SIsNightTime>();    
+            Helper.LogInfo("ForcePractice Initialise()");
 
             this.PopupQuery = base.GetEntityQuery(new ComponentType[]
             {
@@ -31,15 +32,35 @@ namespace PlateUp_ForceConsent
             bool hasMatches = !this.PopupQuery.IsEmpty;
 
             if (hasMatches)
-            {
-                Debug.Log("FORCE: StartPracticeMode");
+            {             
+                Helper.LogInfo("FORCE: StartPracticeMode");
 
-                ConsentElement[] consentElement = GameObject.FindObjectsOfType<ConsentElement>();
+                ConsentElement[] consentElements = GameObject.FindObjectsOfType<ConsentElement>();                     
 
-                if (consentElement.Length > 1)
+                if (consentElements.Length < 2)
                 {
-                    consentElement[1].SetAllConsents(true);
-                }                             
+                    //Debug.Log("consentElements.Length < 2");
+                    //Helper.LogInfo("consentElements.Length < 2");
+
+                    return;
+                }
+
+                //int counter  = 0;
+
+                //foreach(var consentElement in consentElements)
+                //{
+                //    //consentElement.ClearConsents();
+                //    //Helper.LogInfo("foreach"+counter+" "+consentElement.Mode);
+                //    //counter++;
+                //}
+
+                ConsentElement elem = consentElements[1];
+                //elem.SetAllConsents(true);
+         
+                ConsentElement elemTwo = consentElements[2];
+                elemTwo.Mode = ConsentElement.ConsentMode.AnyRequired;
+                //elemTwo.ClearConsents();
+                elemTwo.SetAllConsents(true);
             }
         }
     }
@@ -48,7 +69,8 @@ namespace PlateUp_ForceConsent
     {
         protected override void Initialise()
         {
-            base.Initialise();               
+            base.Initialise();
+            Helper.LogInfo("ForceLeavePractice Initialise()");
         }
 
         protected override void OnUpdate()
@@ -68,8 +90,8 @@ namespace PlateUp_ForceConsent
             int[] consents = GetConsentArray(view);
 
             if (consents.Length > 0)
-            {
-                Debug.Log("FORCE: LeavePracticeMode");
+            {           
+                Helper.LogInfo("FORCE: LeavePracticeMode");
 
                 var leave = GetOrDefault<SLeavePracticeView>();
                 leave.Ready = true;
